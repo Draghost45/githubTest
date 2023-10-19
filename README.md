@@ -18,36 +18,46 @@
 <li>tensorflow : <code>2.3.1</code></li>
 
 <p></p>
-<p><strong>Please place all the following files in the same directory (In the publicly shared google drive):</strong></p>
+<p>Please place all the following files in the same directory (In the publicly shared google drive):</p>
 <li><code>SUMOylation Independent Testing.ipynb</code></li>
 <li><code>Final_independent_test_dataset_of_SUMOylation_PTM.csv</code></li>
 <li><code>Subash_Chandra_Pakhrin5775457372.h5</code></li>
 <p>Also, execute the <code>SUMOylation Independent Testing.ipynb</code> program to see the reported result.</p>
 
 <p></p>
-<p><strong>Please place all the following files in the same directory (In the publicly shared google drive):</strong></p>
+<p>Please place all the following files in the same directory (In the publicly shared google drive):</p>
 <li><code>SUMO_2_3_Independent_Test_Set_Testing.ipynb</code></li>
 <li><code>Independent_Test_Set_of_Hendriks_et_al_SUMO_2_3.csv</code></li>
 <li><code>SUMO2_330482327.h5</code></li>
 <p>Also, execute the <code>SUMO_2_3_Independent_Test_Set_Testing.ipynb</code> program to see the reported result.</p>
 
 <p></p>
-<p><strong>Please place all the following files in the same directory (In the publicly shared google drive):</strong></p>
+<p>Please place all the following files in the same directory (In the publicly shared google drive):</p>
 <li><code>GPS SUMO Independent Testing.ipynb</code></li>
 <li><code>GPS_Testing_Prot_T5_feature.txt</code></li>
 <li><code>GPS_SUMO_Independent_test82423____13.h5</code></li>
 <p>Also, execute the <code>GPS SUMO Independent Testing.ipynb</code> program to see the reported result.</p>
 
+<p></p>
+<p>If you want to test if the sites of a protein is SUMOylated or not: Please place all the following files in the same directory</p>
+<li><code>SUMOylation_P10275_Test.ipynb</code></li>
+<li><code>P10275_Prot_Trans_.csv</code>(Change this feature file with your interest, generate it using the <code>analyze_Cell_Mem_ER_Extrac_Protein.py</code> program)</li>
+<li><code>Subash_Chandra_Pakhrin5775457372.h5</code></li>
+<p>Also, execute the <code>SUMOylation_P10275_Test.ipynb</code> program, you will see the result which K are SUMOylated.</p>
+
+<p></p>
+<p>If you want to test if the sites of a protein is SUMO2/3 SUMOylated or not: Please place all the following files in the same directory</p>
+<li><code>SUMO_2_3_P10275_Test.ipynb</code></li>
+<li><code>P10275_Prot_Trans_.csv</code>(Change this feature file with your interest, generate it using the <code>analyze_Cell_Mem_ER_Extrac_Protein.py</code> program)</li>
+<li><code>SUMO2_330482327.h5</code></li>
+<p>Also, execute the <code>SUMO_2_3_P10275_Test.ipynb</code> program, you will see the result which K are SUMO2/3 SUMOylated.</p>
+
+<h3 align="center"><strong>For your convenience we have uploaded the ProtT5 feature extraction program (analyze_Cell_Mem_ER_Extrac_Protein.py) for the protein sequence from ProtT5 as well as corresponding 1024 feature vector extraction program (Feature Extraction Program from the generated files.ipynb) from the ProtT5 file.</strong></h3>
+<h3 align="center">All the training and independent test data are uploaded at the following google drive link: https://drive.google.com/drive/folders/1GsTRSQc2vwWH-tzBbkrXwrec6LpWUKhC
+</h3>
 <h2>Contact Information</h2>
 <p align="left">If you need any help please contact Dr. Subash Chandra Pakhrin <a href="mailto:pakhrins@uhd.edu">pakhrins@uhd.edu</a></p>
 
-
-
-If you want to test if the sites of a protein is SUMOylated or not: Please place all the following files in the same directory SUMOylation_P10275_Test.ipynb, Subash_Chandra_Pakhrin5775457372.h5, P10275_Prot_Trans_.csv (Change this feature file with your interest, generate it using the analyze_Cell_Mem_ER_Extrac_Protein.py program) and execute the SUMOylation_P10275_Test.ipynb you will see the result which K are SUMOylated.
-
-If you want to test if the sites of a protein is SUMO2/3 SUMOylated or not: Please place all the following files in the same directory SUMO_2_3_P10275_Test.ipynb, SUMO2_330482327.h5, P10275_Prot_Trans_.csv (Change this feature file with your interest, generate it using the analyze_Cell_Mem_ER_Extrac_Protein.py program) and execute the SUMO_2_3_P10275_Test.ipynb you will see the result which K are SUMO2/3 SUMOylated.
   
-*** For your convenience we have uploaded the ProtT5 feature extraction program (analyze_Cell_Mem_ER_Extrac_Protein.py) for the protein sequence from ProtT5 as well as corresponding 1024 feature vector extraction program (Feature Extraction Program from the generated files.ipynb) from the ProtT5 file. ***
 
-All the training and independent test data are uploaded at the following google drive link: https://drive.google.com/drive/folders/1GsTRSQc2vwWH-tzBbkrXwrec6LpWUKhC
 
