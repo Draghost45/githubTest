@@ -52,7 +52,7 @@
 <li><code>SUMO2_330482327.h5</code></li>
 <p>Also, execute the <code>SUMO_2_3_P10275_Test.ipynb</code> program, you will see the result which K are SUMO2/3 SUMOylated.</p>
 
-<h3 align="center"><strong>For your convenience we have uploaded the ProtT5 feature extraction program (analyze_Cell_Mem_ER_Extrac_Protein.py) for the protein sequence from ProtT5 as well as corresponding 1024 feature vector extraction program (Feature Extraction Program from the generated files.ipynb) from the ProtT5 file.</strong></h3>
+<h3 align="center"><strong>For your convenience we have uploaded the ProtT5 feature extraction program <code>analyze_Cell_Mem_ER_Extrac_Protein.py</code> for the protein sequence from ProtT5 as well as corresponding 1024 feature vector extraction program <code>Feature Extraction Program from the generated files.ipynb</code> from the ProtT5 file.</strong></h3>
 <h3 align="center">All the training and independent test data are uploaded at the following google drive link: https://drive.google.com/drive/folders/1GsTRSQc2vwWH-tzBbkrXwrec6LpWUKhC
 </h3>
 <h2>Contact Information</h2>
